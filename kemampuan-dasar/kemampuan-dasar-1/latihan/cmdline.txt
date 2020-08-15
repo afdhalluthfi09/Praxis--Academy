@@ -1,0 +1,147 @@
+1. mkdir : syintax untuk membuat folder
+   syinatx : E:\Documents\about_basic> mkdir praxis
+   hasil : d-----        8/13/2020   5:08 PM                praxis
+   
+2. cd (current directory) : syintax untuk bisa akses ke sebuah folder baik     	   akses kedalam folder atau ke luar folder.
+   syinatx: E:\Documents\about_basic> cd praxis
+   hasil: E:\Documents\about_basic\praxis>
+3. dir melihat isi directory
+   syinatx:E:\Documents\about_basic\praxis> dir
+   hasil: 
+	
+    Directory: E:\Documents\about_basic\praxis
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        8/13/2020  10:06 PM            751 cmdline.txt
+
+
+4. copy  : syintax untuk mencopy file ke target directory
+   syinatx: E:\Documents\about_basic\praxis> COPY cmdline.txt /
+   hasil:
+	
+
+    Directory: E:\Documents\about_basic\praxis
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        8/13/2020  10:06 PM            751 cmdline - Copy.txt
+-a----        8/13/2020  10:06 PM            751 cmdline.txt
+
+5. move  : syintax untuk memindahkan file ke target dirotory
+   syinatx:E:\Documents\about_basic\praxis> MOVE "cmdline - Copy.txt" ../about_basic
+   hasil:
+	    Directory: E:\Documents\about_basic\praxis
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        8/13/2020  10:06 PM            751 cmdline.txt
+
+6. touch : syintax untuk membuat file baru yang di akhiri dengan extensi dari 	   file yang dibuat.
+   syinatx: E:\Documents\about_basic\praxis> touch cari-java.sh
+   hasil: 
+	
+    Directory: E:\Documents\about_basic\praxis
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        8/14/2020   7:46 AM              0 cari-java.sh
+-a----        8/13/2020  10:06 PM            751 cmdline.txt
+
+7. ping   : pengecekan koneksi perangkat yang saling terhubung
+   syinatx: E:\Documents\about_basic\praxis> ping www.google.com
+   hasil: 
+	Pinging www.google.com [216.239.38.120] with 32 bytes of data:
+	Reply from 216.239.38.120: bytes=32 time=81ms TTL=115
+	Reply from 216.239.38.120: bytes=32 time=68ms TTL=115
+	Reply from 216.239.38.120: bytes=32 time=65ms TTL=115
+	Reply from 216.239.38.120: bytes=32 time=388ms TTL=115
+
+	Ping statistics for 216.239.38.120:
+    	Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+	Approximate round trip times in milli-seconds:
+        Minimum = 65ms, Maximum = 388ms, Average = 150ms
+
+8. date   : menampilakn hari tanggal tahun dan jam
+   syinatx: E:\Documents\about_basic\praxis> date
+   hasil: 
+  	Fri Aug 14 07:49:16 SEAST 2020
+
+9. ipconfig : menampilkan alamat dari protocol internet mulai ip addres, dhcp
+   syinatx:E:\Documents\about_basic\praxis> ipconfig
+   hasil:
+	  Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Ethernet adapter VirtualBox Host-Only Network:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : private
+   IPv4 Address. . . . . . . . . . . : private
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+   
+   more ...
+
+10. tree : syinatx untuk melihat isi dan posisi diretory dalam bentuk cabang
+    syinatx: E:\Documents\about_basic> tree
+    hasil:
+    	E:.
+├───adobeXD
+├───basic_kotlin
+│   ├───.idea
+│   │   ├───codeStyles
+│   │   └───libraries
+│   ├───out
+│   │   └───production
+│   │       └───basic_pertama
+│   │           └───META-INF
+│   └───src
+11. whoami : untuk melihat nama user dari dekstop kita
+    syinatx:E:\Documents\about_basic\praxis> whoami
+    hasil:
+	no-public\luthfi
+12. echo : untuk menampilakn pesan string 
+    syintax : echo hai
+    hasil : hii
+
+13. erse : untuk menghapus file sekaligus dan folder dengan sesuai extensinya
+    syintax : Erase E:\Documents\about_basic\praxis\*.docx
+    hasilny : terhapus
+
+14. rmdir :  menghapus folder
+    syintax : Erase E:\Documents\about_basic\praxis\ rmdir folder
+    hasil : folder terhapus
+
+15. time : untuk menapilkan waktu sekaligus untuk menyetel
+    syintax : E:\Documents\about_basic\praxis\ time 
+    hasil :The current time is:  8:07:31,93
+
+16. ver : untuk menampilkan pesan
+    syintax : E:\Documents\about_basic\praxis\ ver
+    hasil : Microsoft Windows [Version 10.x.xxxx.xxx]
+
+17. vol : untuk melihat label dan serial number drive penyimpanan
+    syintax : E:\Documents\about_basic\praxis\ vol
+    hasil :
+     	 Volume in drive C has no label.
+ 	 Volume Serial Number is G457-8975
+
+18 md : membuat deroctery baru
+   syintax : E:\Documents\about_basic\praxis>md latihan
+   hasil   :
+   	cari-java.sh  cmdline.txt  latihan
+
+19. move : memindahkan file kediroctry lain
+    syindax : E:\Documents\about_basic\praxis>MOVE cmdline.txt ../about_basic
+    hasil    :
+	cari-java.sh    latihan
+
+20. Delete : menghapus file
+    syintax : E:\Documents\about_basic\praxis> DELETE cari-java.sh
+    hasil   : 
+	 latihan
