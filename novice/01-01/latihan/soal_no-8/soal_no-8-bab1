@@ -1,0 +1,18 @@
+#intro
+==============================================================================================
+java script ini dibuat untuk hanya kalangan Netscape dan natinya akan dikembangakn lagi oleh developer2 lain yang sampai sekarang tidak ada hentinya,diwal pembuatanya namanya bukan lah javascript yang kita tau selama ini, akan tetapi namanya adalah mocha lalu beruba menjadi live script dan pada waktu itu java lagi banyak di gandrungi oleh para programmer maka pakialh nama javaScript,sampai sekarang orang mengenal dengan nama javaScript.
+
+kenapa harus belajar javaScript, javaScript adalah program yang sudah mendekati bahasa manusia dimana beberapa syintxax sudah bisa dipahami tanpa kesulitan,dan juga banyak implemnetasi ataupun library yang bisa digunakan, bahkan setiap bulanya ada library muncul dengan berbagai kebutuhan, itu menunjukan bahwa bahasa ini sangat flexibel dan mudah, sehingga banyak yang minati.
+===============================================================================================
+
+#value:
+value atau kita lebih mengenalnya dengan nilai, artinya setiap wadah pasti mempunay kapasitas baik itu volume,tinggi,lebar,lingakaran jari, dimana semua itu bisa diukru parameternya, sehingga dalam pemograman juga begitu semua variabel itu kita harus mengisinya dengan nilai atau value, karna dalam pembuatan program membutuhkan parameter dan parameter itu ada yang harus berisi dengan value.
+
+#variabel:
+dalam sebuah penelitian setiap objek di isi dalam variabel agar memudahkan para peniliti untuk mematakanya, sama dengan di pemogrman kita harus menampung sebuah value kedalam variabel, agar bisa  digunakan berulang kali tanpa harus mendefinisikan ulang tiap kali mau membuat syntax code yang membutuhkan value yang sama.
+
+# types
+value atau nilai pada pemograman ada banyak jenisnya biasnya disebut dengan type data, sehingga pengunaan dari type data juga berbedada, di dalam javaScript type data ada beberapa jenis, untuk bisa menampung banyak value maka bisa menggunakan type data array untuk bisa menampung nilai yang berisin niali binary 0 atau 1 bisa menggunakan type data boolean, dan untuk bisa menampung data berupa kata/atau kalimat makan di butuhkan type data string dan untuk menampung value yang berupa nominal angka maka membutuhkan type data numerik dan ada juga yang disebut undefined bianya data sudah tersimpan dalam memory window tapi terjadi hoisting dimana data di panggil sebelum di definisikan(kurang lebih seperti itu).
+
+#operator
+dalam dijavascript operatro standar yang diketahui seperti ["+","-","*","/","%"] disebut dengan operator penjumlahan dan ada juga untuk operator yang nilai keluarnya adalah true or false atau di sebut dengan operator logika ["<",">","==","=<","=>"] dan ada juga operator ekspresi ["&&","||","!="]

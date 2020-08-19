@@ -1,0 +1,12 @@
+struktur program pada dasarnya membaca alur akan mengeksekusi dari atas kebawah sehingga jika terjadi kesalahan tulisan kode di atas maka tulisan kode selanjutnya tidak di eksekusi oleh program
+
+alur sederhanayan
+|					|
+|					|
+|					x\ <- tetap dieksekusi
+x					 /
+-					|
+-					|
+- <-tidak di kesekusi
+
+biasnya disebut dengan control flow, yang memungkinkna jika terjadi nilai yang tidak diinginkna berubah maka tetap bisa berjalan, alurnya sangat sederhana  menggunakan syintax keputuasan  if else, swicth yang penulisnaya memiliki parameter beda-beda, ada juga dispunt dengan looping dimana kondisi ini nilai kita yang beri akan selalu bertambah atau berulang sesuai dengan para meter yang kita tentukan. 

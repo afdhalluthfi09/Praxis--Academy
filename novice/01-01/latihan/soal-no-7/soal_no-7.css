@@ -1,0 +1,19 @@
+body{
+    background-color: blue;
+}
+
+.frame{
+
+    width: 500px;
+    
+    background-color: darkorange;
+    border: black;
+    text-align: center;
+    border-style: solid;
+    
+}
+
+.img{
+    height: 340px;
+    width: 450px;
+}

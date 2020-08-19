@@ -1,0 +1,13 @@
+js (java script) merupakan bahasa pemograman yang sangat interaktif untuk website  dimana js mampu membuat websit menjadi tampilan interaktif dan memungkinkan memanupulasi isi dari web menjadi lebih baik dari segi model atau desain menjadi lebih menarik, dengan bantuan library js yang sangat powerfull, selain itu juga bisa mebuat 2d dan 3d untuk tampilanya.
+
+# kita bisa memasukan file script js kedalam web yang kita bangun dengan menggunakna syintak 
+  <scrip src="file.js"></script>, dengan begitu kita bisa mengkonfigurasi web sesuai dengan
+  kebutuhan project kita.
+
+# kenapa berguna bagi para frontend? 
+
+1. Antarmuka Pemrograman Aplikasi peramban (API) yang terpasang di peramban web, menyediakan fungsionalitas seperti membuat HTML secara dinamis dan menyetel gaya CSS; mengumpulkan dan memanipulasi aliran video dari webcam pengguna, atau membuat grafik 3D dan sampel audio.
+
+2. API pihak ketiga yang memungkinkan pengembang memasukkan fungsionalitas di situs dari penyedia konten lain, seperti Twitter atau Facebook.
+
+3. Kerangka kerja dan pustaka pihak ketiga yang dapat Anda terapkan ke HTML untuk mempercepat pekerjaan membangun situs dan aplikasi.

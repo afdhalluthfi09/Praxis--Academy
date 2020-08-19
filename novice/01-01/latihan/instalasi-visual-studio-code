@@ -1,0 +1,18 @@
+======================= Langkah Instalasi Visual Studio Code =======================
+
+1 downlad drive studio code di situs resmi :
+  https://visualstudio.com
+2. jika pengguna windos maka akan memilih driver yang ekstensinya .exe
+   jika pengguna linux bisa memilih untuk driver yang berekstensi .deb
+3. setelah mendownload maka tinggal mengeksekusinya :
+   jika  pengguna windows: 
+   	klik kanan -> pilih run or run administrator
+   jika dia pengguna linux:
+   	buka terminal->masuk ke direktory file yang diwonload->lalu ketikan perintah
+   	sudo dpkgi -i ./namaFile.deb && sudo apt install -f
+
+====== untuk konfigurasi javaScript =======
+1.buka aplikasi visual studio code
+2.lalu klik icon yang sebelah kiri palinga bawah yang judulnya ekstensi
+  lalu pasang ekstensi yang berhubungan dengan javaScript seperti vue,eslint,snippet javaScript
+ 
