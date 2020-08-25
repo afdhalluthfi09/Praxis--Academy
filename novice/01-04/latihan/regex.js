@@ -19,5 +19,3 @@ console.log(text.match(regexpFoxQuality));
 // expected output: Array ["quick"]
 
 
-
-

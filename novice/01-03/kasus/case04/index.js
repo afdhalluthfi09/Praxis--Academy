@@ -13,5 +13,7 @@ let perdiksiUmur =function(age,amout){
     let ageMax = 100 -age;
     let suplya = amout * 365;
 
-    console.log(`anda membutuhkan ${suplya} suplay untuk bisa bertahan sampai ${ageMax} tahun `)
+    console.log(`anda membutuhkan ${suplya} suplay untuk bisa bertahan sampai ${ageMax} tahun`)
 }
+
+var a = 3 + 4;
