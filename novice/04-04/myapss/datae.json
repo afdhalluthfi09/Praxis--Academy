@@ -1,0 +1,179 @@
+[
+{
+id: 22,
+name: "Ultraman",
+description: "Untuk anak-anak",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "robot-robotan",
+was_included_in_home: true
+},
+{
+id: 23,
+name: "Ultraman",
+description: "Untuk anak-anak",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "robot-robotan",
+was_included_in_home: true
+},
+{
+id: 24,
+name: "Toy",
+description: "Untuk anak-anak",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "robot-robotan",
+was_included_in_home: true
+},
+{
+id: 25,
+name: "Toy",
+description: "Untuk anak-anak",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "robot-robotan",
+was_included_in_home: true
+},
+{
+id: 26,
+name: "Toy",
+description: "Untuk anak-anak",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "robot-robotan",
+was_included_in_home: true
+},
+{
+id: 27,
+name: "Toy",
+description: "Untuk anak-anak",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "robot-robotan",
+was_included_in_home: true
+},
+{
+id: 28,
+name: "Toy",
+description: "Untuk anak-anak",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "robot-robotan",
+was_included_in_home: true
+},
+{
+id: 30,
+name: "Toy",
+description: "Untuk anak-anak",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "robot-robotan",
+was_included_in_home: false
+},
+{
+id: 31,
+name: "Toy",
+description: "Untuk anak-anak",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "robot-robotan",
+was_included_in_home: false
+},
+{
+id: 32,
+name: "Toy",
+description: "Untuk anak-anak",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "robot-robotan",
+was_included_in_home: false
+},
+{
+id: 33,
+name: "Toy",
+description: "Untuk anak-anak",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "robot-robotan",
+was_included_in_home: false
+},
+{
+id: 34,
+name: "Toy",
+description: "Untuk anak-anak",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "robot-robotan",
+was_included_in_home: true
+},
+{
+id: 35,
+name: "Toy",
+description: "Untuk anak-anak",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "robot-robotan",
+was_included_in_home: true
+},
+{
+id: 36,
+name: "Dinosaurus",
+description: "bukan untuk dijual",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "apa ya?",
+was_included_in_home: false
+},
+{
+id: 37,
+name: "Dinosaurus",
+description: "bukan untuk dijual",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "apa ya?",
+was_included_in_home: true
+},
+{
+id: 38,
+name: "Dinosaurus",
+description: "bukan untuk dijual",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "apa ya?",
+was_included_in_home: true
+},
+{
+id: 39,
+name: "Dinosaurus",
+description: "bukan untuk dijual",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "apa ya?",
+was_included_in_home: true
+},
+{
+id: 40,
+name: "Dinosaurus",
+description: "bukan untuk dijual",
+release_date: "2017-10-08T01:01:00.776594Z",
+toy_category: "apa ya?",
+was_included_in_home: true
+},
+{
+id: 41,
+name: "Ken in Rome",
+description: "Ken loves Rome",
+release_date: "2017-10-09T12:11:37.090335Z",
+toy_category: "Dolls",
+was_included_in_home: false
+},
+{
+id: 42,
+name: "Ken in Rome",
+description: "Ken loves Rome",
+release_date: "2017-10-09T12:11:37.090335Z",
+toy_category: "Dolls",
+was_included_in_home: true
+}
+]
+
+
+
+add: async function(){
+            await axios.post('http://192.168.1.44:8000/toys', {
+                id :this.form.id,
+                name:this.form.name,
+                description:this.form.description,
+                release_date:this.form.release_date,
+                toy_category:this.form.toy_category,
+                was_included_in_home:this.was_included_in_home
+            })
+            .then(res=>{console.log(res)
+            }).catch((err)=>{
+                console.log(err)
+            })
+        }
